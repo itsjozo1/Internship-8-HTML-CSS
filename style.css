@@ -1,0 +1,66 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+}
+hr{
+    background-color: rgb(255, 165, 0);
+    border-color: rgb(255, 165, 0);
+    height: 1px;
+}
+div{
+    font-size: x-large;
+    background-color: rgb(250, 235, 215);
+    border: 10px solid;
+}
+#pink{
+    border-color: rgb(255, 0, 255);
+}
+#blue{
+    border-color: rgb(0, 255, 255);
+}
+#orange{
+    border-color: rgb(255, 140, 0);
+}
+h1{
+    margin-top: 0;
+    font-size: xxx-large;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+}
+div > p{
+    text-align: left;
+}
+div > *{
+    margin: 1rem;
+}
+nav{
+    text-align: center;
+    color: white;
+    margin: 1.5em;
+}
+nav>p{
+    margin: 0.5rem;
+}
+ul{
+    width: fit-content;
+    margin: auto;
+}
+li{
+    list-style-position: inside;
+    width: fit-content;
+}
+li>a{
+    color: rgb(150, 79, 241);
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.footer-marque{
+    font-size: smaller;
+}
